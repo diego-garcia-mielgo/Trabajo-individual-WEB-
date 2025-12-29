@@ -1,44 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
   <title>Contacto</title>
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
   <header>
     <h1>Contacto</h1>
     <nav>
-      <a href="pagina_web.html">Inicio</a>
-      <a href="about.html">Acerca de mí</a>
+      <a href="index.html">Inicio</a>
+      <a href="about.html">Sobre mí</a>
+      <a href="degree.html">Grado</a>
+      <a href="fii.html">FII</a>
       <a href="topic.html">Tema</a>
-      <a href="degree.html">Carrera</a>
       <a href="net.html">Red</a>
+      <a href="contact.html">Contacto</a>
     </nav>
   </header>
 
   <main>
-    <section>
-      <h2>Formulario de contacto</h2>
-      <form action="#" method="post">
-        <label for="nombre">Nombre</label>
-        <input id="nombre" name="nombre" type="text" required>
+    <h2>Formulario de contacto</h2>
+    <p>Este formulario es solo un ejemplo. No guarda ni envía los datos.</p>
 
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" required>
+    <form action="#" method="get">
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre"><br><br>
 
-        <label for="mensaje">Mensaje</label>
-        <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo"><br><br>
 
-        <button type="submit">Enviar</button>
-      </form>
-      <p>Nota: el formulario es estático y no envía ni guarda datos (sin scripts de servidor).</p>
-    </section>
+      <label for="asunto">Asunto:</label><br>
+      <input type="text" id="asunto" name="asunto"><br><br>
+
+      <label for="mensaje">Mensaje:</label><br>
+      <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea><br><br>
+
+      <button type="submit">Enviar</button>
+    </form>
   </main>
 
   <footer>
-    <p>&copy; 2025 - Contacto</p>
+    <p>&copy; 2025 Tu Nombre</p>
   </footer>
+
 </body>
 </html>
