@@ -43,23 +43,26 @@ El contenido está adaptado a mi situación real como estudiante de Ingeniería 
 
 ### Problemas durante el desarrollo
 
-Durante el desarrollo aparecieron varios problemas:
 
-- **Rutas de archivos**: al principio hubo errores al enlazar hojas de estilo e imágenes, sobre todo al publicar en GitHub Pages. Fue necesario revisar la estructura de carpetas y unificar las rutas relativas.
-- **Tono de los textos**: algunos textos sonaban demasiado formales o poco personales. Se reescribieron en primera persona para que reflejaran mejor mis intereses reales.
-- **Coherencia entre páginas**: en versiones iniciales el menú, los títulos y algunos estilos no coincidían en todas las páginas. Se revisaron uno a uno los ficheros HTML hasta dejar la navegación unificada.
+### Imágenes
+
+- Varias veces las imágenes no se mostraban porque la ruta no coincidía con la estructura real del proyecto (por ejemplo, confundir `img/` con `imagenes/`).
+- También hubo errores por diferencias mínimas en el nombre del archivo: mayúsculas/minúsculas o extensión distinta (`.jpg`, `.jpeg`, `.png`).
+- Para simplificar, se unificó todo en una única carpeta llamada `imagenes/` y se renombraron los archivos para que los nombres fueran cortos y fáciles de recordar.
+
+### Hoja de estilos (`styles.css`)
+
+- Al principio algunas páginas no cargaban bien los estilos porque cada una tenía un enlace distinto a la hoja CSS.
+- Se revisaron todos los ficheros HTML para que usaran el mismo enlace:
 
 ### Conclusiones
+## Conclusiones
 
-El proyecto cumple los objetivos del trabajo práctico:
+- He aprendido a estructurar una web con varias páginas conectadas entre sí, usando HTML y CSS de forma coherente.
+- He mejorado la organización de archivos y carpetas en un proyecto web real (separando código, estilos e imágenes).
+- He visto en la práctica lo útil que es tener un documento de diseño para planificar y justificar decisiones durante el desarrollo.
+- Este proyecto me ha servido para aplicar lo que veo en clase de diseño web y para empezar a cuidar aspectos de accesibilidad, navegación sencilla y estética básica.
 
-- Crear una web estática usando únicamente **HTML y CSS**.  
-- Organizar la información personal, académica y del grado de forma clara.  
-- Utilizar **Git y GitHub** para el control de versiones y la publicación mediante GitHub Pages.
-
-Además, este trabajo me ha servido como primera experiencia real organizando un pequeño proyecto web, entendiendo mejor la estructura de archivos, las rutas y la importancia de mantener un diseño coherente entre páginas.
-
----
 
 ## Publicación
 
